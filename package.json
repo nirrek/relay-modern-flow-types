@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "devDependencies": {
+    "relay-compiler": "dev"
+  },
+  "dependencies": {
+    "flow-bin": "^0.44.2",
+    "react-relay": "dev"
+  },
+  "scripts": {
+    "relay": "relay-compiler --src . --schema ./schema.graphql",
+    "flow": "flow"
+  }
+}
